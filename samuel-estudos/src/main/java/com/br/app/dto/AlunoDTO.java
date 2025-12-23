@@ -3,6 +3,11 @@ package com.br.app.dto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
+
+/**
+ * Aluno DTO - o DTO é o espelho do tela, que é prenchida fora do banco de dados.
+ */
+
 @Data
 public class AlunoDTO {
 
